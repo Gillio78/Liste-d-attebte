@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choix patient</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1 id="title">KIOOP</h1>
+        <h2 id="undertitle">Gérer sa liste d'attente.</h2>
+     </header>
+     <p id="instructions">Patients en liste d'attente : <br/><br/>
+
+        Cliquer pour sélectionner puis valider.</p><br/>
+        <form action="/submit-form" method="POST">
+            <select id="specialite" name="specialite">
+                <option value="Monsieur X">Monsieur X</option> 
+                <option value="Madame Y">Madame Y</option>
+                <option value="Monsieur Z">Monsieur Z</option> 
+            </select><br/><br/><br/><br/>
+            <a href="affichagepatient.html" class="button">Valider</a>
+    
+</body>
+</html>

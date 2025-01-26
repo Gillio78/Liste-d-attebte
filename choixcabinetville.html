@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIOOP</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1 id="title">KIOOP</h1>
+        <h2 id="undertitle">S'inscrire sur la liste d'attente d'un auxilliaire médical.</h2>
+     </header>
+        <p id="instructions">Je recherche cette spécialité :</p><br/>
+        <form action="/submit-form" method="POST">
+            <select id="specialite" name="specialite">
+                <option value="orthophoniste">Orthophoniste</option> 
+                <option value="kinesitherapeute">Kinésithérapeute</option>
+            </select><br/><br/>
+            <p id="instructions">Je recherche cette ville :</p><br/>
+        <form action="/submit-form" method="POST">
+            <select id="specialite" name="specialite">
+                <option value="Chatou">Chatou</option> 
+                <option value="Montesson">Montesson</option>
+            </select><br/><br/><br/>
+            <div class="validation">
+                <a href="choixpraticien.html" class="button">Valider</a>
+            </div>
+
+
+</body>

@@ -1,0 +1,51 @@
+
+    
+body {
+    background: linear-gradient(to bottom, #4AE2ED, #3CB7C0, #34A0A8, #2A8187);
+    height: 100vh;
+    margin: 30vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    color : #FFFDFD;
+    font-size: 128px;
+}
+
+#undertitle {
+    color : #FFFDFD;
+    font-size: 32px;
+}
+
+#instructions {
+    color : #23349D;
+    font-size: 25px;
+}
+
+#email {
+    background-color: #FFFDFD;
+    color: #544D4D;
+    font-size: 25px;
+    border: none;
+    border-radius: 25px;
+    padding : 1vh;
+}
+
+.button {
+    background: linear-gradient(to left,#2CDE5C, #25B74C, #187832);
+    color: #F7F7FA;
+    font-size: 25px;
+    border-radius: 25px;
+    padding : 2vh;
+    margin-top : 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#specialite {
+    margin-bottom: 20px;
+}
+
